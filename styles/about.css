@@ -211,6 +211,14 @@ section .title::after{
     background: none;
 }
 
+.cover-page .cover-page-content .profile{
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    background: #111;
+    display: flex;
+}
+
 
 /* contact section styling */
 .contact .title::after{
