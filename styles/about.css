@@ -213,14 +213,28 @@ section .title::after{
 
 .cover-page .cover-page-content .profile{
 
-    left: 50%;
+    left: 40%;
+    top: 57%;
     position: absolute;
-    top: 0px;
-    padding-top: 75%;
-    height: 100px;
-    width: 100px;
-    background: #111;
-    display: flex;
+    background: #fff;
+    border-radius: 50%;
+    /* top: 0px; */
+/*     padding-top: 75%;
+ */   
+}
+.cover-page .cover-page-content .profile:hover{
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.cover-page .cover-page-content .profile img{
+    
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
 }
 
 
