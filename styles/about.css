@@ -211,6 +211,7 @@ section .title::after{
     background: none;
 }
 
+
 .cover-page .cover-page-content .profile{
 
     left: 40%;
@@ -407,7 +408,13 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    .cover-page .cover-page-content .profile,
+.cover-page .cover-page-content .profile img{
+    width: 200px;
+    height: 200px;
 }
+}
+
 
 @media (max-width: 690px) {
     .max-width{
@@ -422,6 +429,13 @@ footer span a:hover{
     .cover-page .cover-page-content a{
         font-size: 20px;
     }
+    .cover-page .cover-page-content .profile,
+.cover-page .cover-page-content .profile img{
+    width: 150px;
+    height: 150px;
+    top: 62%;
+
+}
 }
    
 
@@ -451,5 +465,12 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    .cover-page .cover-page-content .profile,
+.cover-page .cover-page-content .profile img{
+    width: 140px;
+    height: 140px;
+    top: 65%;
+    left: 37%;
+}
 }
 
