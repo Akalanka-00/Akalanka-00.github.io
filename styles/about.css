@@ -215,7 +215,7 @@ section .title::after{
 .cover-page .cover-page-content .profile{
 
     left: 40%;
-    top: 57%;
+    top: 50%;
     position: absolute;
     background: #fff;
     border-radius: 50%;
@@ -412,6 +412,7 @@ footer span a:hover{
 .cover-page .cover-page-content .profile img{
     width: 200px;
     height: 200px;
+    top: 57%;
 }
 }
 
