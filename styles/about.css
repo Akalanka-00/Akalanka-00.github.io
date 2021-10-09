@@ -212,10 +212,10 @@ section .title::after{
 }
 
 
-.cover-page .cover-page-content .profile{
+.cover-page .cover-page-content .left{
 
-    left: 40%;
-    top: 50%;
+    left: 41vw;
+    top: 60vh;
     position: absolute;
     background: #fff;
     border-radius: 50%;
@@ -223,6 +223,11 @@ section .title::after{
 /*     padding-top: 75%;
  */   
 }
+.cover-page .cover-page-content .right{
+    
+    left: 55%;
+}
+
 .cover-page .cover-page-content .profile:hover{
     background: #fff;
     transition: all 0.3s ease;
@@ -231,6 +236,9 @@ section .title::after{
 .cover-page .cover-page-content .profile img{
     
     height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
     width: 250px;
     object-fit: cover;
     border-radius: 50%;
@@ -403,17 +411,29 @@ footer span a:hover{
     .max-width{
         max-width: 930px;
     }
+   /*  .cover-page .cover-page-content .profile{
+        width: 100%;
+    }
+    .cover-page .cover-page-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .cover-page .cover-page-content .right{
+        flex: 100%;
+    }
    
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
-    }
-    .cover-page .cover-page-content .profile,
+    } */
+/*     .cover-page .cover-page-content .profile,
 .cover-page .cover-page-content .profile img{
     width: 200px;
     height: 200px;
-    top: 57%;
-}
+    flex: 100%;
+   
+} */
 }
 
 
@@ -430,13 +450,12 @@ footer span a:hover{
     .cover-page .cover-page-content a{
         font-size: 20px;
     }
-    .cover-page .cover-page-content .profile,
+/*     .cover-page .cover-page-content .profile,
 .cover-page .cover-page-content .profile img{
     width: 150px;
     height: 150px;
-    top: 62%;
 
-}
+} */
 }
    
 
@@ -466,12 +485,10 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-    .cover-page .cover-page-content .profile,
+/*     .cover-page .cover-page-content .profile,
 .cover-page .cover-page-content .profile img{
     width: 140px;
     height: 140px;
-    top: 65%;
-    left: 37%;
-}
+} */
 }
 
