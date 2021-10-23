@@ -359,8 +359,8 @@ section .title::after{
 
 /* works section styling */
  .gallery{
-    color:#fff;
-    background: #111;
+    color:#111;
+    background: #ddd;
 }
 .works{
     color:#111;
@@ -375,7 +375,7 @@ section .title::after{
 }
 
 .gallery .title::after{
-    background: #111;
+    background: #ddd;
     content: "what I have done";
 }
 .works .title::after{
@@ -724,7 +724,7 @@ section .title::after{
     content: "My activities";
 }
 .gallery .carousel .card{
-    background: #222;
+    background: #6e6e6e;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
