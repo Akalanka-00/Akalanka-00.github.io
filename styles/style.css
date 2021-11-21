@@ -751,16 +751,22 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.gallery .carousel .card :hover{
+    color: #fff;
+    transition: all 0.1s ease;
+}
+
 .gallery .carousel .card img{
     height: 180px;
     width: 300px;
     object-fit: cover;
     border-radius: 5%;
-    border: 5px solid crimson;
+    border: 5px solid #ddd;
     transition: all 0.3s ease;
 }
 .gallery .carousel .card:hover img{
-    border-color: #fff;
+    border-color: #eee;
+    
 }
 .owl-dots{
     text-align: center;
@@ -774,6 +780,7 @@ section .title::after{
     border-radius: 50%;
     border: 2px solid crimson!important;
     transition: all 0.3s ease;
+    
 }
 .owl-dot.active{
     width: 35px;
@@ -782,6 +789,7 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
+    
 }
 
 /* contact section styling */
