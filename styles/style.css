@@ -365,7 +365,7 @@ section .title::after{
 /* works section styling */
  .gallery{
     color:#111;
-    background: #ddd;
+    background: #eee;
 }
 .works{
     color:#111;
@@ -380,7 +380,7 @@ section .title::after{
 }
 
 .gallery .title::after{
-    background: #ddd;
+    background: none;
     content: "what I have done";
 }
 .works .title::after{
@@ -389,12 +389,16 @@ section .title::after{
 }
 .works .serv-content .card{
     width: calc(33% - 20px);
-    background: #ddd;
+    background: #eee;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.gallery .card{
+background: #fff;
 }
 .works .serv-content .card:hover{
     background: var(--gradient-color);
@@ -531,7 +535,7 @@ section .title::after{
 }
 
 .grey-section {
-	background: #ebebeb;
+	background: #eef;
 }
 .grey-section p.lead {
 	color: #7d7d7d;
@@ -729,7 +733,8 @@ section .title::after{
     content: "My activities";
 }
 .gallery .carousel .card{
-    background: #6e6e6e;
+    background: var(--primary-color);;
+    color: #fff;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
