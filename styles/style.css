@@ -345,6 +345,8 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
+
+
 .about .about-content .right a{
     display: inline-block;
     background: var(--gradient-color);
@@ -360,6 +362,14 @@ section .title::after{
 .about .about-content .right a:hover{
     color: var(--primary-color);
     background: none;
+}
+.about .about-content .right .sa{
+
+    color: var(--primary-color);
+    background: none;
+    border: none;
+    font-size: 16px;padding: 0px 0px;
+    font-weight: 100;
 }
 
 /* works section styling */
