@@ -584,22 +584,22 @@ background: #fff;
 	padding-top: 1.5rem;
 }
 #resume .timeline-ico {
-	height: 4.8rem;
-	width: 4.8rem;
+	height: 2.8rem;
+	width: 2.8rem;
 	line-height: 4.8rem;
-	background: #313131;
+	background: var(--gradient-color);
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
 	position: absolute;
-	left: 35%;
+	left: 36.58%;
 	top: .9rem;
 	margin-left: -2.4rem;
 }
 #resume .timeline-ico i {
 	position: relative;
 	left: .05rem;
-	top: .2rem;
+	top: -0.7rem;
 }
 
 #resume .timeline-header {
