@@ -554,6 +554,41 @@ section .title::after{
     margin: 0;
 }
 
+/* Project Area */ 
+
+ .project-area{
+    padding: 4rem 0;
+}
+
+ .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+ .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+ .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+ .project-area .grid .our-project .img a img{
+    width: 100px;
+    height: 100px;
+}
+
+ .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.project-area .button-group  .active{
+	text-decoration: underline;
+	color: var(--primary-color);
+}
+/* End Project Area */ 
 
 
 
